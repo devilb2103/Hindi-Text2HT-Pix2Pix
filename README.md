@@ -10,9 +10,7 @@ This repository contains the code and methodology for generating realistic handw
 -   [Model Architecture](#model-architecture)
 -   [Evaluation Metrics](#evaluation-metrics)
 -   [Results](#results)
--   [Usage](#usage)
--   [Future Work](#future-work)
--   [References](#references)
+-   [Sample Images](#sample-images)
 
 ---
 
@@ -24,7 +22,7 @@ Generating handwriting for complex scripts like Hindi is challenging due to intr
 -   A synthetic dataset generated using character-maatra combinations from the CALAM dataset.
 -   Evaluation via Handwritten Text Recognition (HTR) models using **Character Accuracy Rate (CAR)** and **Word Accuracy Rate (WAR)** metrics.
 
-![Discriminator Architecture](images/methodology.jpeg)
+![Discriminator Architecture](Images/methodology.jpeg)
 
 ---
 
@@ -51,9 +49,9 @@ Generating handwriting for complex scripts like Hindi is challenging due to intr
 ### Pix2Pix with PatchGAN
 
 -   **Generator**: A U-Net-based model transforms typed text into handwriting images.
-    ![Generator Architecture](images/gen.jpeg)
+    ![Generator Architecture](Images/gen.jpeg)
 -   **Discriminator**: A PatchGAN evaluates localized patches to enhance quality and detail.
-    ![Discriminator Architecture](images/disc.jpeg)
+    ![Discriminator Architecture](Images/disc.jpeg)
 
 ### Evaluation Model
 
@@ -85,11 +83,11 @@ Generating handwriting for complex scripts like Hindi is challenging due to intr
 ## Sample Images
 
 **Input Example**:  
-![Sample Input Text Image](images/input.jpeg)  
+![Sample Input Text Image](Images/input.jpeg)  
 A synthetically generated Hindi word is used as input to the Pix2Pix model. Each character and maatra is carefully selected according to Hindi grammar rules.
 
 **Output Example**:  
-![Sample Output Handwritten Image](images/output.jpeg)  
+![Sample Output Handwritten Image](Images/output.jpeg)  
 The output demonstrates the model’s attempt to capture the subtleties of Hindi script, including ligatures and diacritical marks.
 
 ---
