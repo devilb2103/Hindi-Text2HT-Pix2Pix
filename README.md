@@ -1,6 +1,6 @@
 # Hindi Handwriting Generation Using Advanced Deep Learning Models
 
-This repository contains the code and methodology for generating realistic handwritten Hindi text using advanced deep learning techniques. The project employs a **Pix2Pix model with PatchGAN** for image-to-image translation, focusing on the complexities of Hindi script, such as conjunct characters, diacritical marks, and the shirorekha (horizontal line).
+This repository contains the code and methodology for generating realistic handwritten Hindi text using advanced deep learning techniques. The project employs a **Pix2Pix model** for image-to-image translation, focusing on the complexities of Hindi script, such as conjunct characters, diacritical marks, and the shirorekha (horizontal line).
 
 ## Table of Contents
 
@@ -18,11 +18,11 @@ This repository contains the code and methodology for generating realistic handw
 
 Generating handwriting for complex scripts like Hindi is challenging due to intricate character formations and contextual dependencies. This project proposes a novel approach to Hindi handwriting generation by leveraging:
 
--   Conditional GANs (Pix2Pix architecture with PatchGAN discriminator).
--   A synthetic dataset generated using character-maatra combinations from the CALAM dataset.
--   Evaluation via Handwritten Text Recognition (HTR) models using **Character Accuracy Rate (CAR)** and **Word Accuracy Rate (WAR)** metrics.
+-   Conditional GANs (Pix2Pix architecture).
+-   A novel synthetic dataset generated using character-maatra combinations from the CALAM dataset.
+-   Evaluation via a Handwritten Text Recognition (HTR) model using **Character Accuracy Rate (CAR)** and **Word Accuracy Rate (WAR)** metrics.
 
-![Discriminator Architecture](Images/methodology.jpeg)
+![Mthodology](Images/methodology.jpeg)
 
 ---
 
