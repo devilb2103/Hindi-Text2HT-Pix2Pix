@@ -22,14 +22,15 @@ Generating handwriting for complex scripts like Hindi is challenging due to intr
 -   A novel synthetic dataset generated using character-maatra combinations from the CALAM dataset.
 -   Evaluation via a Handwritten Text Recognition (HTR) model using **Character Accuracy Rate (CAR)** and **Word Accuracy Rate (WAR)** metrics.
 
-![Mthodology](Images/methodology.jpeg)
+![Methodology](Images/methodology.jpeg)
 
 ---
 
 ## Features
 
--   Generation of realistic Hindi handwritten text from typed text.
+-   Generation of a novel annotated dataset using the original CALAM character dataset.
 -   Integration of shirorekha detection for precise character alignment.
+-   Generation of realistic Hindi handwritten text from typed text.
 -   Evaluation of handwriting quality using advanced HTR models.
 
 ---
@@ -51,7 +52,7 @@ Generating handwriting for complex scripts like Hindi is challenging due to intr
 -   **Generator**: A U-Net-based model transforms typed text into handwriting images.
     ![Generator Architecture](Images/gen.jpeg)
 -   **Discriminator**: A PatchGAN evaluates localized patches to enhance quality and detail.
-    ![Discriminator Architecture](Images/disc.jpeg)
+    ![Discriminator Architecture](Images/disc.png)
 
 ### Evaluation Model
 
