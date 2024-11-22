@@ -92,3 +92,56 @@ A synthetically generated Hindi word is used as input to the Pix2Pix model. Each
 The output demonstrates the model’s attempt to capture the subtleties of Hindi script, including ligatures and diacritical marks.
 
 ---
+
+## Deployed Application
+
+The Hindi Handwriting Generator application is a mobile app built with **Flutter** to convert typed Hindi text into realistic handwritten-style images. The app communicates with a backend powered by **Quart** and the Pix2Pix model for text-to-handwriting conversion. Below are the details of the application's features and architecture:
+
+### Key Features
+
+1. **Input Customization**:
+    - Allows users to input typed Hindi text.
+    - Adjustable font size and canvas width for tailored image generation.
+2. **Real-time Image Preview**:
+    - Displays the generated handwritten image for quick validation.
+3. **Save and Share**:
+    - Users can save the generated handwritten image to local storage or share it with others.
+
+### Application Screens
+
+#### **First Screen: Input Your Text**
+
+-   **Features**:
+    -   Enter Hindi text in a text box.
+    -   Adjust font size and canvas width using numeric inputs.
+    -   Generate handwritten images by clicking the "Convert Text" button.
+-   **Screenshot Placeholder**:  
+    ![First Screen](Images/screen_1.png)
+
+#### **Second Screen: Preview Your Handwriting**
+
+-   **Features**:
+    -   Preview the generated handwritten image in a container.
+    -   Navigate to the full-screen view using the "View Image" button.
+-   **Screenshot Placeholder**:  
+    ![Second Screen](Images/screen_2.png)
+
+#### **Third Screen: Full Image and Save Option**
+
+-   **Features**:
+    -   View the handwritten image in full screen with pinch-to-zoom functionality.
+    -   Save the image to the device's gallery or local storage.
+-   **Screenshot Placeholder**:  
+    ![Third Screen](Images/screen_3.png)
+
+### Backend Workflow
+
+1. **Text-to-Image Conversion**:
+    - Processes each word in the sentence using a Pix2Pix model.
+    - Ensures proper alignment of characters and maatraas.
+2. **Paragraph Assembly**:
+    - Dynamically arranges word images into paragraph format with randomized spacing for natural aesthetics.
+3. **API Response**:
+    - Returns the final image to the app for display and interaction.
+
+---
