@@ -11,6 +11,7 @@ This repository contains the code and methodology for generating realistic handw
 -   [Evaluation Metrics](#evaluation-metrics)
 -   [Results](#results)
 -   [Sample Images](#sample-images)
+-   [Deployed Application](#deployed-application)
 
 ---
 
