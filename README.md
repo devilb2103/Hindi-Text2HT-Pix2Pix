@@ -1,4 +1,4 @@
-# Hindi Handwriting Generation Using Advanced Deep Learning Models
+# LekhaGAN: Hindi Handwriting Generation Using Advanced Deep Learning Models
 
 This repository contains the code and methodology for generating realistic handwritten Hindi text using advanced deep learning techniques. The project employs a **Pix2Pix model** for image-to-image translation, focusing on the complexities of Hindi script, such as conjunct characters, diacritical marks, and the shirorekha (horizontal line).
 
